@@ -1,0 +1,440 @@
+* {
+  margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+* {font-family: arial;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #87a8ab;
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float:left;
+  display: block;
+  color: #3f575a;
+  text-align: center;
+  padding: 20px 50px;
+margin-left: 5%;
+
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #3f575a;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.Logo {
+  text-align: center;
+}
+
+.pic{
+height: 100%;
+width: 100%;
+}
+
+main {
+
+  background-color: white;
+}
+
+.Icons {
+    background-color: #87a8ab;
+}
+
+
+span.footerinfo {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+
+
+margin-top: 100px;
+margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+
+
+i {
+
+  font-size: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ .Icons {
+
+   text-align: center;
+ }
+
+
+
+
+
+ * {
+   box-sizing: border-box;
+ }
+
+ /* Create two unequal columns that floats next to each other */
+ .column {
+   float: left;
+   padding: 0px;
+   height: 400px; /* Should be removed. Only for demonstration */
+   color: white;
+   text-align: center;
+   font-size: 15px;
+
+ }
+
+ .left {
+   width: 40%;
+   padding: 0px
+ }
+
+
+
+ .right {
+   width: 60%;
+
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+   padding: 0%;
+
+ }
+
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
+
+
+
+
+ .right1 {
+   width: 30%;
+   padding: 0px
+ }
+
+ .left1 {
+   width: 70%;
+
+ }
+
+ /* Clear floats after the columns */
+ .row1:after {
+   content: "";
+   display: table;
+   clear: both;
+   padding: 0%;
+
+ }
+
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column, .left2, .right2 {
+     width: 100%;
+   }
+ }
+
+
+p{
+
+color: #3f575a;
+
+}
+
+
+h1 {
+
+font-size: 24px;
+  color:#786247;
+  margin: 20px;
+}
+
+
+h2 {
+font-size: 18px;
+color: #3f575a;
+}
+
+
+.welcome {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0%;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .9;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+font-size: 100px;
+}
+
+.queenstown {
+
+font-size: 100%;
+
+}
+
+.MessageBox{
+  text-align: center;
+  color: black;
+
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+.form {
+  flex-basis: 40%
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+.columnA {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 750px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowA:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+label {
+
+  font-size: 18px;
+  color: #3f575a;
+
+}
+
+input, textarea, option, select {
+
+  padding: 5px;
+color: #ddd;
+}
+
+button{
+background-color: #3f575a;
+color: #ddd;
+padding: 10px;
+}
+
+.googlemap {
+
+  text-align: center;
+
+}
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column5 {
+  float: left;
+  width: 40%;
+  height: 800%; /* Should be removed. Only for demonstration */
+  text-align: right;
+
+}
+
+/* Clear floats after the columns */
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+
+}
+
+
+
+.right2 {
+  width: 30%;
+  padding: 0px
+
+}
+
+.left2 {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0%;
+  height: 300px;
+  text-align: right;
+
+}
+
+
+
+.left5 {
+  width: 25%;
+
+
+}
+
+.right5 {
+  width: 50%;
+  text-align: right;
+  height: 700px;
+}
+
+/* Clear floats after the columns */
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+.right7 {
+  width: 30%;
+  padding: 0px
+}
+
+.left7 {
+  width: 70%;
+
+}
+
+/* Clear floats after the columns */
+.row7:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0%;
+
+}
